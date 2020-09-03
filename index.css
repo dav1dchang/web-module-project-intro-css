@@ -1,0 +1,191 @@
+/*Implementing CSS Reset. Utilized Eric Meyer's CSS Reset*/
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end of reset*/
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+}
+
+html{
+    font-size:62.5%;
+  }
+
+body{ 
+    line-height:2;
+    font-size:1.5rem;
+    font-family: "Roboto Mono", monospace;
+  }
+
+.PlanVisit {
+    background-color: #FF764E;
+    color: White;
+  }
+
+.Learn {
+    background-color: #5ED3EB;
+    color: white;
+}
+
+.GetInvolved {
+    background-color: #FFCD69;
+    color: white;
+}
+
+nav{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%
+}
+
+nav a{
+    margin: 2% 8%;
+    display:inline-block;
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration:none;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 7rem;
+    font-family:"Chelsea Market", cursive;
+    display: inline-block;
+}
+
+.circlelogo img {
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circlelogo {
+    width: 32rem;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+header {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.headertext {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.headertext p{
+    font-size: 2.5rem;
+    line-height: 1;
+    padding: 2%;
+}
+
+.first{
+    background-color: #DDB9A3;
+    padding: .5%;
+    line-height: 1;
+    margin: 3%;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+
+.first p{
+    padding: .5%;
+}
+
+.second {
+    margin: 5% auto;
+    text-align: center;
+    width: 25%;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.second img {
+    width: 40%;
+    margin: 2% 0;
+}
+
+.third {
+    margin: 5% auto;
+    text-align: center;
+    width: 25%;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.third img {
+    width: 40%;
+    margin: 2% 0;
+}
+
+footer{
+    background-color: #F9E7DC;
+}
+
+.footerimg{
+    height: 300px;
+    size:cover;
+    overflow:hidden;
+}
+
+.footerimg img{
+    height: initial;
+}
+
+
+
+
+
