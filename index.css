@@ -57,8 +57,12 @@ html{
 body{ 
     line-height:2;
     font-size:1.5rem;
-    font-family: "Roboto Mono", sans-serif;
+    font-family: "Roboto Mono", monospace;
   }
+
+ /*.container {
+     margin: 0 auto;
+ }*/
 
 .PlanVisit {
     background-color: #FF764E;
@@ -75,22 +79,29 @@ body{
     color: white;
 }
 
+nav{
+    display: inline-block;
+    margin: 2% 5%;
+}
+
 nav a{
     display:inline-block;
-    margin: 0 10px;
     padding: 20px;
-    display: inline-block;
     border-radius: 20px;
-    margin-bottom: 20px;
+    text-decoration:none;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1.6rem;
 }
 
 h1 {
-    font-size: 4rem;
-    font-family: "Chelsea Market", serif;
+    font-size: 7rem;
+    font-family:"Chelsea Market", cursive;
+    display: inline-block;
 }
 
 .circlelogo {
-    width: 32rem;
+    width: 50rem;
     margin-left: 5%;
 }
 
@@ -103,23 +114,64 @@ header {
     text-align: center;
 }
 
+.headertext {
+    width: 100%;
+}
 
+.headertext p{
+    font-size: 2.5rem;
+    line-height: 1;
+    padding: 2%;
+}
 
+.first{
+    background-color: #DDB9A3;
+    padding: 2%;
+    line-height: 1;
+    margin: 3%;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
 
-
+.second {
+    margin: 5% auto;
+    text-align: center;
+    width: 25%;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
 
 .second img {
-    width: 10%;
+    width: 50%;
+    margin: 2% 0;
+}
+
+.third {
+    margin: 5% auto;
+    text-align: center;
+    width: 25%;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
 }
 
 .third img {
-    width: 10%;
+    width: 50%;
+    margin: 2% 0;
 }
 
-.footerimg {
-    height: 50%;
+.footerimg{
+    height: 300px;
+    size:cover;
+    overflow:hidden;
+    background-color: #F9E7DC;
 }
 
+.footerimg img{
+    height: initial;
+}
 
 
 
